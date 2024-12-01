@@ -12,8 +12,11 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #2e4156;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: white;
   }
   
   #board {
@@ -49,7 +52,7 @@ body {
   #status {
     font-size: 1.2em;
     margin: 10px 0;
-    color: #333;
+    color: white;
   }
   
   #reset {
@@ -57,13 +60,13 @@ body {
     font-size: 1em;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #3e2522;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   #reset:hover {
-    background-color: #0056b3;
+    background-color: #842416;
   }
   
